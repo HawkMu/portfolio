@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Web Coding / Frontend</title>
+    <meta name="description" content="HTML・CSS・JavaScriptを中心としたWeb制作・フロントエンドのポートフォリオです。">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <h1 class="logo">
+          <a href="#">Portfolio</a>
+        </h1>
+        <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false">メニュー</button>
+        <nav class="header-nav" aria-label="メインナビゲーション">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#skills">Skills</a></li>
+            <li class="nav-item"><a href="#works">Works</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-container">
+          <div class="hero-content">
+            <p class="hero-label">Web Coding / Frontend</p>
+            <h2 class="hero-title">見やすさと使いやすさを意識し、<br>丁寧にWebを実装する。</h2>
+            <p class="hero-text">HTML・CSS・JavaScriptを中心に、レスポンシブ対応やUI実装に取り組んでいます。<br>Web制作の経験を積みながら、より表現力のあるフロントエンド実装へとスキルを広げていきたいと考えています。</p>
+            <a class="btn hero-button" href="#works">制作実績を見る</a>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-visual-box">
+              <div class="browser-bar">
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+                <span class="browser-dot"></span>
+              </div>
+              <div class="browser-content">
+                <div class="browser-heading"></div>
+                <div class="browser-text"></div>
+                <div class="browser-text short"></div>
+                <div class="browser-button"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about" id="about">
+        <div class="container about-container">
+          <h2 class="section-title">About</h2>
+          <div class="about-content">
+            <p class="about-text">
+              Web制作・フロントエンド分野への転職を目指しています。
+              実務ではWeb案件に約7カ月参画し、そのうち約3カ月、HTML・CSS・JavaScript・Vue.jsを用いた画面開発および単体テストを経験しました。
+              これまでの経験を活かしながら、Web制作の実務経験をさらに広げていきたいと考えています。
+            </p>
+            <p class="about-text">
+              現在はWeb制作・UI実装のスキルをさらに磨いており、特にゲーム・アニメ・音楽などのエンタメ分野のWeb制作に興味があります。
+            </p>
+            <table class="about-table">
+              <tr>
+                <th>Experience</th>
+                <td>
+                  Web案件 約7か月 / 画面開発・単体テスト 約3か月
+                </td>
+              </tr>
+              <tr>
+                <th>Development</th>
+                <td>
+                  HTML / CSS / JavaScript / Vue.js / SQL
+                </td>
+              </tr>
+              <tr>
+                <th>Creative</th>
+                <td>
+                  Photoshop / Illustrator
+                </td>
+              </tr>
+              <tr>
+                <th>Interest</th>
+                <td>
+                  ゲーム・アニメ・音楽などのエンタメWeb制作 / UI実装
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="skills" id="skills">
+        <div class="container skills-container">
+          <h2 class="section-title">
+            Skills
+          </h2>
+          <div class="skills-list">
+            <div class="skills-card">
+              <h3 class="skills-title">
+                HTML / CSS
+              </h3>
+              <p class="skills-text">
+                Webページの構造作成、
+                レイアウト調整、
+                レスポンシブ対応などに取り組んでいます。
+              </p>
+            </div>
+            <div class="skills-card">
+              <h3 class="skills-title">
+                JavaScript / Vue.js
+              </h3>
+              <p class="skills-text">
+                JavaScriptによるUI操作に加え、
+                実務ではVue.jsを使用した画面開発を経験しています。
+              </p>
+            </div>
+            <div class="skills-card">
+              <h3 class="skills-title">
+                Photoshop / Illustrator
+              </h3>
+              <p class="skills-text">
+                Web制作に必要な画像編集・デザインツールの操作経験があり、両ツールの認定資格を取得しています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Works -->
+      <section class="works" id="works">
+        <div class="container works-container">
+          <h2 class="section-title">
+            Works
+          </h2>
+          <div class="works-list">
+            <article class="works-card">
+              <div class="works-image">
+                <img
+                src="images/blueworks-studio.png"
+                alt="BlueWorks StudioのWebサイト画面">
+              </div>
+              <h3 class="works-card-title">
+                BlueWorks Studio
+              </h3>
+              <p class="works-card-text">
+                Web制作会社を想定して制作した、HTML・CSS・JavaScriptによる1ページ構成のWebサイトです。
+              </p>
+              <p class="works-card-text">
+                <strong>担当</strong><br>
+                企画 / 構成 / HTML / CSS / JavaScript / レスポンシブ対応
+              </p>
+              <p class="works-card-text">
+                <strong>使用技術</strong><br>
+                HTML / CSS / JavaScript / Git / GitHub
+              </p>
+              <p class="works-card-text">
+                PCだけでなくスマートフォンでも情報を確認しやすいよう、レイアウトやナビゲーションの切り替えを実装しました。
+              </p>
+              <div class="works-link">
+                <a class="btn" href="https://hawkmu.github.io/portfolio-blueworks-studio/" target="_blank" rel="noopener noreferrer">
+                  サイトを見る
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Implementation -->
+      <section class="implementation">
+        <div class="container implementation-container">
+          <h2 class="section-title">
+            Implementation
+          </h2>
+          <div class="implementation-list">
+            <div class="implementation-card">
+              <h3 class="implementation-title">
+                Responsive Design
+              </h3>
+              <p class="implementation-text">
+                画面幅に応じてレイアウトを切替え、PC・タブレット・スマートフォンでも見やすい表示を意識しました。
+              </p>
+            </div>
+            <div class="implementation-card">
+              <h3 class="implementation-title">
+                Navigation UI
+              </h3>
+              <p class="implementation-text">
+                スマートフォン表示では、JavaScriptを使用し、ハンバーガーメニューの開閉処理を実装しました。
+              </p>
+            </div>
+            <div class="implementation-card">
+              <h3 class="implementation-title">
+                Menu State Control
+              </h3>
+              <p class="implementation-text">
+                JavaScriptを使用し、ユーザーの操作に応じて表示が変化するUIを実装しました。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Coding Policy -->
+      <section class="policy">
+        <div class="container policy-container">
+          <h2 class="section-title">
+            制作で意識していること
+          </h2>
+          <div class="policy-list">
+            <div class="policy-item">
+              <span class="policy-number">
+                01
+              </span>
+              <h3 class="policy-title">
+                情報を分かりやすく整理する
+              </h3>
+              <p class="policy-text">
+                初めて見る方にも内容が伝わるよう、情報の順序や余白、視認性を意識しています。
+              </p>
+            </div>
+            <div class="policy-item">
+              <span class="policy-number">
+                02
+              </span>
+              <h3 class="policy-title">
+                修正しやすい実装
+              </h3>
+              <p class="policy-text">
+                HTML構造やクラスを整理し、後から見返したときにも理解しやすい実装を意識しています。
+              </p>
+            </div>
+            <div class="policy-item">
+              <span class="policy-number">
+                03
+              </span>
+              <h3 class="policy-title">
+                理解しながら進める
+              </h3>
+              <p class="policy-text">
+                分からないことは調べ、コードの意味や動作を確認しながら、実装することを大切にしています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interest -->
+      <section class="interest">
+        <div class="container interest-container">
+          <h2 class="section-title">
+            Interested in
+          </h2>
+          <div class="interest-list">
+            <div class="interest-card">
+              <h3 class="interest-title">
+                Game / Anime
+              </h3>
+              <p class="interest-text">
+                ゲーム・アニメ作品の公式サイトや世界観・魅力を伝えるWebサイト制作に興味があります。
+              </p>
+            </div>
+            <div class="interest-card">
+              <h3 class="interest-title">
+                Promotion
+              </h3>
+              <p class="interest-text">
+                特設サイトやキャンペーンLPなどコンテンツの魅力を伝えるWeb制作に興味があります。
+              </p>
+            </div>
+            <div class="interest-card">
+              <h3 class="interest-title">
+                Interactive Web
+              </h3>
+              <p class="interest-text">
+                JavaScriptを活用したUIや動きのあるWeb表現にも今後さらにスキルを広げていきたいと考えています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <div class="container contact-container">
+          <h2 class="section-title">
+            Contact
+          </h2>
+          <div class="contact-content">
+            <p class="contact-text">
+              ご覧いただきありがとうございます。
+              GitHubでは本サイトのソースコードをご確認いただけます。
+            </p>
+            <p class="contact-text">
+              <a class="btn" href="https://github.com/HawkMu/portfolio-blueworks-studio" target="_blank" rel="noopener noreferrer">
+                GitHubを見る
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+     <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <small>
+          &copy; 2026 Portfolio
+        </small>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

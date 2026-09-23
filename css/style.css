@@ -348,14 +348,16 @@ textarea {
   box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
 }
 
-.works-image {
+.works-preview {
+  height: 400px;
   border-bottom: 1px solid #e2e8f0;
+  overflow: hidden;
 }
 
-.works-image img {
+.works-preview iframe {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 100%;
+  border: none;
 }
 
 .works-card-title {
@@ -376,6 +378,8 @@ textarea {
 }
 
 .works-link {
+  display: flex;
+  gap: 16px;
   margin: 0 28px 28px;
 }
 
@@ -671,5 +675,14 @@ textarea {
   .works-card-text {
     margin-right: 22px;
     margin-left: 22px;
+  }
+  .works-preview {
+    height: 320px;
+  }
+  .works-link {
+    flex-direction: column;
+  }
+  .works-link .btn {
+    width: 100%;
   }
 }
